@@ -145,9 +145,10 @@ def load_model(model_dir):
 
     return model, metadata
 
-def classify_img(model, img_path):
+def classify_img(model, img_path, device):
     img = Image.open(img_path)
     img_tensor = eval_transform(img).view(1, 3, 224, 224)
+    img_tensor = img_tensor.to(device)
     class_idx = model(img_tensor).argmax()
     return model.classes[class_idx]
 

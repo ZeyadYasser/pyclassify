@@ -98,5 +98,5 @@ def run_cmd():
 
     print('Model: "{0}" is loaded'.format(metadata['model_name']))
     model.eval()
-    img_class = utils.classify_img(model, args.image_dir)
+    img_class = utils.classify_img(model, args.image_dir, device)
     print(img_class)
