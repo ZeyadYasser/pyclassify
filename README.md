@@ -2,9 +2,11 @@
 Simple command line tool for transfer learning
 
 ## Installation
-```bash
-pip install git+https://github.com/ZeyadYasser/pyclassify
-```
+- Install Pytorch from [https://pytorch.org/](https://pytorch.org/)
+- Install pyclassify
+	```bash
+	pip install git+https://github.com/ZeyadYasser/pyclassify
+	```
 ---
 
 ## Training
