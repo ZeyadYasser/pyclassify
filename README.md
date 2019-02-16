@@ -1,6 +1,12 @@
 # pyclassify
 Simple command line tool for transfer learning
 
+## Installation
+```bash
+pip install git+https://github.com/ZeyadYasser/pyclassify
+```
+---
+
 ## Training
 ```bash
 PyClassify for transfer learning
