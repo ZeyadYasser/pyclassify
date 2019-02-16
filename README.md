@@ -42,8 +42,8 @@ optional arguments:
 Example :
 ```bash
 pyclassify_train
-	--checkpoint-dir=path/to/model_checkpoint # Resume on this checkpoint
-	--save-dir=path/to/model_checkpoint # 
+	--checkpoint-dir=path/to/model_checkpoint
+	--save-dir=path/to/model_checkpoint
 	--data-dir=path/to/data
 	--epochs=30
 	--batch-size=64
