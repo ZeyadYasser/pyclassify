@@ -1,6 +1,8 @@
 # pyclassify
 Simple command line tool for transfer learning
 
+[Medium article](https://medium.com/@zeyady98/transfer-learning-with-pytorch-e2face66e143)
+
 ## Installation
 - Install Pytorch from [https://pytorch.org/](https://pytorch.org/)
 - Install pyclassify
